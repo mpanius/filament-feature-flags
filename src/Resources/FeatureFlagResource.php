@@ -15,7 +15,7 @@ use Filament\Forms\Components\Toggle;
 use Filament\Resources\Form;
 use Filament\Resources\Resource;
 use Filament\Resources\Table;
-use Filament\Tables\Columns\BooleanColumn;
+use Filament\Tables\Columns\IconColumn;
 use Filament\Tables\Columns\TextColumn;
 use Filament\Tables\Filters\SelectFilter;
 use Illuminate\Database\Eloquent\Builder;
@@ -135,7 +135,8 @@ class FeatureFlagResource extends Resource
                 TextColumn::make('name')
                     ->searchable()
                     ->sortable(),
-                BooleanColumn::make('enabled')
+                IconColumn::make('enabled')
+                    ->boolean()
                     ->action(fn (FeatureFlag $record) => $record->update(['enabled' => ! $record->enabled]))
                     ->sortable(),
                 TextColumn::make('flaggable_type')
