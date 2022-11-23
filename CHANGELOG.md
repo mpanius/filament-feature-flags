@@ -2,6 +2,21 @@
 
 All notable changes to `filament-feature-flags` will be documented in this file.
 
+## v1.0.4 - 2022-11-23
+
+### What's Changed
+
+- build(deps): bump dependabot/fetch-metadata from 1.3.1 to 1.3.3 by @dependabot in https://github.com/ryangjchandler/filament-feature-flags/pull/11
+- build(deps): bump dependabot/fetch-metadata from 1.3.3 to 1.3.4 by @dependabot in https://github.com/ryangjchandler/filament-feature-flags/pull/12
+- build(deps): bump dependabot/fetch-metadata from 1.3.4 to 1.3.5 by @dependabot in https://github.com/ryangjchandler/filament-feature-flags/pull/15
+- replace BooleanColumn with IconColumn(boolean) by @alphaolomi in https://github.com/ryangjchandler/filament-feature-flags/pull/14
+
+### New Contributors
+
+- @alphaolomi made their first contribution in https://github.com/ryangjchandler/filament-feature-flags/pull/14
+
+**Full Changelog**: https://github.com/ryangjchandler/filament-feature-flags/compare/v1.0.3...v1.0.4
+
 ## v1.0.3 - 2022-06-07
 
 ### What's Changed
